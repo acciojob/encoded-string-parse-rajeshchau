@@ -1,4 +1,11 @@
 const parseCode = (str) => {
+	 const [firstName, lastName, id] = str.split(/0+/);
+  
+  return {
+    firstName,
+    lastName,
+    id
+  };
   // your code here
 };
 
